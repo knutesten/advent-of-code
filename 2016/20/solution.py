@@ -16,6 +16,7 @@ def find_min_ip(blocked_ips):
 
 
 print(find_min_ip(puzzle_input.copy()))
+print()
 
 
 def allowed_ips(blocked_ips):
@@ -35,14 +36,4 @@ def allowed_ips(blocked_ips):
     return count + max_ip - min_ip + 1
 
 
-example_input = [
-    [5, 8],
-    [0, 2],
-    [4, 7]
-]
-
 print(allowed_ips(puzzle_input.copy()))
-# print(allowed_ips(example_input))
-# too high:    771316128
-# too high: :( 767079326
-# too high: :( 767079103
