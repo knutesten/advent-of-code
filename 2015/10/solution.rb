@@ -9,7 +9,7 @@ def look_and_say(string)
     count = 1
     count += 1 until string[index + count] != prev_number
     index += count
-    new_string += count.to_s + prev_number.to_s
+    new_string << count.to_s + prev_number.to_s
   end
 
   new_string
