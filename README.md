@@ -5,3 +5,4 @@ New language every year, so don't expect the cleanest code :P
 ### 2016: python (3)
 ### 2017: Common Lisp
 ### 2018: Haskell
+### 2019: Clojure
