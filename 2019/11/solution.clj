@@ -69,7 +69,7 @@
           (recur))))))
 
 (def input
-  (as-> (slurp "/Users/knutn/Code/privat/advent-of-code/2019/11/input.txt") in
+  (as-> (slurp "input.txt") in
         (clojure.string/trim-newline in)
         (clojure.string/split in #",")
         (map #(bigint %) in)
