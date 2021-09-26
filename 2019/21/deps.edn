@@ -1,0 +1,2 @@
+{:paths ["."]
+ :deps  {intcode/intcode {:local/root "../intcode"}}}
