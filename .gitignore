@@ -6,3 +6,4 @@ venv/
 .cpcache/
 .nrepl-port
 input.test.txt
+solution
