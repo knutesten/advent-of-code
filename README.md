@@ -8,3 +8,4 @@ New language every year, so don't expect the cleanest code :P
 ### 2019: Clojure <3
 ### 2020: C and C++
 ### 2021: Elixir
+### 2022: Rust
